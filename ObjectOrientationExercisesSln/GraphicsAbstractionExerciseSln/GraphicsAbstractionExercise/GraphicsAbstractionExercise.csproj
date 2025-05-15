@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Eagle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShapesForm.cs">
@@ -60,6 +63,7 @@
     <Compile Include="Shapes\Shape.cs" />
     <Compile Include="Shapes\Triangle.cs" />
     <Compile Include="TextUtils.cs" />
+    <Compile Include="Wildcat.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
